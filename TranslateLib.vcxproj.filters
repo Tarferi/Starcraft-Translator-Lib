@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{81984358-7165-4c45-8bcc-9c31357216ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{562a0f3b-cd00-40f8-b7bb-93e56c8c115f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\chk">
+      <UniqueIdentifier>{01cb0618-50df-40d9-b267-7b61567a795e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\chk">
+      <UniqueIdentifier>{17eda331-b50a-45ff-b8aa-b537c5afac1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\storm">
+      <UniqueIdentifier>{ce367fea-cfd9-4579-9921-c2de3421f681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\storm">
+      <UniqueIdentifier>{bc7d9c77-9910-47b3-8774-d37778070908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\translator">
+      <UniqueIdentifier>{c7dba505-790e-4b38-af99-7306a5265158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\translator">
+      <UniqueIdentifier>{5c8e662f-176e-4a94-a577-f5f295dc0305}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\common\common.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\Mem.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\miniz.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\ReadBuffer.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\resource.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\stdafx.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\targetver.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\WriteBuffer.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\chk\CHK.h">
+      <Filter>Header Files\chk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\chk\MapFile.h">
+      <Filter>Header Files\chk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\chk\Section.h">
+      <Filter>Header Files\chk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\chk\Trigger.h">
+      <Filter>Header Files\chk</Filter>
+    </ClInclude>
+    <ClInclude Include="src\storm\Storm.h">
+      <Filter>Header Files\storm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\storm\StormLib.h">
+      <Filter>Header Files\storm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\translator\TranslationCore.h">
+      <Filter>Header Files\translator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\translator\TranslationSettings.h">
+      <Filter>Header Files\translator</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\common\common.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\Mem.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\miniz.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\ReadBuffer.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\stdafx.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\WriteBuffer.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\chk\CHK.cpp">
+      <Filter>Source Files\chk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\chk\MapFile.cpp">
+      <Filter>Source Files\chk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\chk\Section.cpp">
+      <Filter>Source Files\chk</Filter>
+    </ClCompile>
+    <ClCompile Include="src\storm\Storm.cpp">
+      <Filter>Source Files\storm</Filter>
+    </ClCompile>
+    <ClCompile Include="src\translator\TranslateLib.cpp">
+      <Filter>Source Files\translator</Filter>
+    </ClCompile>
+    <ClCompile Include="src\translator\TranslationCore.cpp">
+      <Filter>Source Files\translator</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
